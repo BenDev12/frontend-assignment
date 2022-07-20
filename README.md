@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+## Instructions
+Please stick to the following instructions on how to submit your application:
+1. Read the whole README
+2. Fork our repository
+3. Add your solution to your repository
+4. Create a pull request to our repository
+5. Add Screen shots to your Pull Request
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Also note down in the end how many hours it took to complete (roughly). **Please do not spend more than 6 hours for the whole task.**
 
-## Available Scripts
+Thank you very much!
 
-In the project directory, you can run:
+## Main Task
+You are developing a new dashboard. Your task is to create a new dashboard with which you will be displaying package information following
 
-### `npm start`
+First you have to setup the main dashboard with the main structure:
+- Header with [Wakelo logo]()
+- Navigation
+  - Main Page
+  - Packages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This structure will be the same on all pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It's not required that the main page has any content. **But it should be the default page on the root path `/`.**
 
-### `npm test`
+### Package Page (`/package`)
+- Package main info should contain
+  - title
+  - Address
+  - type 
+- User info should contain:
+  - user image
+  - user name
+  - user company name
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Example Mockup
+![mockup](mockup.jpg)
 
-### `npm run build`
+## Technical Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application should at the very least use the following:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js framework
+- Redux or Built-in React state management hooks
+- CSS
+  - Your own CSS structure
+  - **Do not** use any CSS frameworks (e.g Bootstrap)
+  - A CSS pre-compiler (SASS, LESS, SCSS) or other CSS approaches (CSS modules, Styled components)
+- The dashboard should be responsive. It should **be usable on mobile and tablets**. There are no mockups for mobile and table views, adapt it to your taste.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+When styling, you can decide for yourself what this dashboard should look like (even the structure-wise), make it look as nice as you can.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Bonus
+Bonus points are awarded if the styles resemble those of [wakelo](https://wakeloexpress.com/) and could fit as seamlessly as possible within that website.
+Other points that are optional but give additional credit:
+  - Comment your code where necessary
