@@ -29,10 +29,6 @@ It's not required that the main page has any content. **But it should be the def
   - title
   - Address
   - type 
-- User info should contain:
-  - user image
-  - user name
-  - user company name
 
 ### Example Mockup
 ![mockup](mockup.png)
