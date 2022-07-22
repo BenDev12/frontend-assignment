@@ -15,7 +15,7 @@ Thank you very much!
 You are developing a new dashboard. Your task is to create a new dashboard with which you will be displaying package information following
 
 First you have to setup the main dashboard with the main structure:
-- Header with [Wakelo logo]()
+- Header with [Wakelo logo](logo.png)
 - Navigation
   - Main Page(Home)
   - Packages
