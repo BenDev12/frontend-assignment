@@ -4,8 +4,8 @@ import Item from "./Item";
 
 function Packages() {
   const [data, setData] = useState(ItemList);
+  // function to delete the items
   function delBtn(e) {
-    console.log(data);
     e.preventDefault();
     const delItem = e.target.getAttribute("value");
     setData(
