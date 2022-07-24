@@ -1,0 +1,59 @@
+/* colors 
+dark-blue:#0F2137;
+yellow:#FFC059;
+light-blue:#272360; */
+/* header Component */
+body{
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Header{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+    box-shadow: 0 1px 15px #0F2137;
+    /* background-color: #0F2137; */
+}
+
+.Header img{
+    width: 200px;
+}
+
+/* side Bar */
+.sidebar{
+    color: #0F2137; 
+    width: 20%;
+    height: 450px;
+    background-color: rgba(178, 205, 214, 0.867);
+}
+.sidebar li{
+    list-style: none;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* packages */
+.packages{
+    width: 80%;
+   
+}
+th{
+    color: #0F2137;
+    font-weight: 500;
+}
+table tr:nth-child(even){
+    background-color: rgba(178, 205, 214, 0.867);
+}
+.item {
+    padding: 15px !important;
+}
+
+.delete:hover{
+    color: red;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+}
