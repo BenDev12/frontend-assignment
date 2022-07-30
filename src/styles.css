@@ -1,0 +1,140 @@
+/* colors 
+dark-blue:#0F2137;
+yellow:#FFC059;
+light-blue:#272360; */
+/* header Component */
+
+
+/* footer */
+.footer{
+    margin-top: 10%;
+    padding: 5px;
+    color: #0F2137;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    background-color: #FFC059;
+}
+body{
+    cursor: pointer;
+}
+
+/* side Bar */
+.sidebar{
+    color: #0F2137; 
+    background-color: rgba(178, 205, 214, 0.867);
+}
+.sidebar li{
+    list-style: none;
+    font-weight: 500;
+}
+/* packages */
+
+th{
+    color: #0F2137;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #FFC059;
+}
+table tbody tr:nth-child(odd){
+    background-color: rgba(178, 205, 214, 0.867);
+}
+
+.delete:hover{
+    color: red;
+}
+/* home */
+.home h1{
+    color: #FFC059;
+    text-transform: uppercase;
+}
+
+/* media queries */
+/* mobile */
+
+ @media only screen and (max-width: 480px){
+    body{
+        padding: 15px;
+    }
+    .body{
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .Header img{
+        width: 50%;
+    }
+    
+    .sidebar{
+        color: #fff;
+        background-color: #0F2137;
+        display: flex;
+        gap: 20%;
+        padding: 15px ;
+        overflow: hidden;
+    }
+    .sidebar li{
+        border: none !important;
+    }
+    table{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    
+ }  
+/* desktop & Tablet*/
+@media only screen and (min-width:590px){
+    body{
+    height: 100%;
+    overflow: hidden;
+}
+.Header{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+    box-shadow: 0 1px 15px #0F2137;
+}
+
+.Header img{
+    width: 200px;
+}
+
+/* side Bar */
+.sidebar{
+    width: 20%;
+    height: 430px;
+    padding-top: 50px;
+}
+.sidebar li{
+    margin-bottom: 15px;
+    height: 50px;
+}
+/* packages */
+.packages,.home{
+    width: 80%;
+   padding: 25px;
+}
+td{
+    width: 20%;
+    padding: 15px;
+}
+.item {
+    padding: 15px !important;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+}   
+.body .footer{
+    display: none;
+}
+    
+}
+
