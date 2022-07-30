@@ -1,0 +1,10 @@
+I spent roughly two hours to do the task due to the tight schedule at hand.
+
+
+what i would add if I had time
+* Adding id's to itemList.js so that its easier to filter items using their id incase of similar values
+*Adding a button for adding packages
+*Adding a button to edit the package items
+*Adding an animation to be displayed when modifying and deleting packages.
+*Performing a similar action to all checked packages
+*More media queries

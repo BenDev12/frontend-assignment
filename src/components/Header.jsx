@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../data/logo.png";
-
+// component holds the top menu
 function Header() {
   return (
     <header className="Header">

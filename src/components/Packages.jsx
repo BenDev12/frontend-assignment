@@ -28,6 +28,7 @@ function Packages() {
           </tr>
         </thead>
         <tbody>
+          {/* to display all the packages  */}
           {data.map((dataRow) => {
             return (
               <Item
